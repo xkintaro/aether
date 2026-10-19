@@ -5,8 +5,8 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 
 export const metadata: Metadata = {
-  title: "Aether — Tema atölyesi",
-  description: "Aether temasını gerçek shadcn bileşenleriyle geliştirme alanı.",
+  title: "Aether",
+  description: "Aether",
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
