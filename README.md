@@ -4,7 +4,13 @@ Ortak açık/koyu palet, Geist + JetBrains Mono fontları ve shadcn uyumlu Tailw
 
 ## Kullanım
 
-Paket henüz npm'e yayımlanmadı. Yerel paketi `npm pack` ile oluşturup projende `npm install /tam/yol/xkintaro-aether-theme-0.1.0.tgz` ile kurabilirsin. npm yayını tamamlanınca kurulum `npm install @xkintaro/aether-theme` olacaktır. Npm scope'u yayımlayacak hesabın sahipliğine göre kesinleştirilmelidir.
+Kaynak repo: https://github.com/xkintaro/aether (özel). npm yayını henüz yapılmadı; şu an doğrudan GitHub sürümünden kurulabilir:
+
+```bash
+npm install git+https://github.com/xkintaro/aether.git#v0.1.0
+```
+
+Özel repo olduğu için kurulum yapan bilgisayarda GitHub erişimi gerekir. Paket adı yine `@xkintaro/aether-theme` olarak kullanılır. Yerel dağıtım için `npm pack` ile `.tgz` üretilebilir. Npm yayını tamamlanınca kurulum `npm install @xkintaro/aether-theme` olacaktır; npm scope'u yayımlayacak hesabın sahipliğine göre kesinleştirilmelidir.
 
 Tailwind v4 + shadcn projesinde `globals.css`:
 
