@@ -76,4 +76,4 @@ npm pack
 
 Tema değişince sürümü yükselt (`npm version patch`), kontrol et ve yayımla. Uygulamalarda yeni sürüme geçmek açıkça yapılan bir bağımlılık güncellemesidir; kendiliğinden güncellenmez. Aynı görünüm için projelerde aynı paket sürümünü kullan.
 
-Yayımlama komutu `npm publish --access public` olur; önce GitHub repo ve npm hesap/scope sahipliği tamamlanmalıdır. Bu repo kullanıcıya ait tema kodudur; yeniden dağıtım lisansı seçilmediği için UNLICENSED olarak işaretlenmiştir. Fontların lisansları kendi bağımlılık paketlerinde bulunur.
+Yayımlama komutu `npm publish --access public` olur; önce GitHub repo ve npm hesap/scope sahipliği tamamlanmalıdır. Bu tema MIT lisansı ile lisanslanmıştır (bkz. `LICENSE`). Fontların lisansları kendi bağımlılık paketlerinde bulunur.

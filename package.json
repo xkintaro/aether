@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Shared warm light/dark theme and typography for Tailwind CSS v4 and shadcn/ui.",
   "type": "module",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "style": "./styles/index.css",
   "exports": {
     ".": "./styles/index.css",
