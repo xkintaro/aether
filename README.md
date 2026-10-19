@@ -2,6 +2,27 @@
 
 Ortak açık/koyu palet, Geist + JetBrains Mono fontları ve shadcn uyumlu Tailwind CSS v4 tokenları. Proje şablonu değildir; var olan uygulamaya kurulan CSS paketidir. JavaScript veya Next.js bağımlılığı yoktur.
 
+## Temayı geliştirme
+
+Bu repo hem tema paketini hem de `demo/` içindeki Next.js + shadcn geliştirme uygulamasını içerir. Node.js 22 kullanabilirsin. Repo kökünde:
+
+```bash
+npm ci
+npm run dev
+```
+
+http://127.0.0.1:3000 adresini aç. Renkleri `styles/tokens.css`, fontları `styles/fonts.css`, eşlemeleri `styles/tailwind.css`, temel tipografiyi `styles/typography.css` içinde düzenle. Demo yerel pakete bağlıdır; CSS değişiklikleri geliştirme sunucusunda anında görünür. Tema yayımlamak, GitHub'dan tekrar kurmak veya CSS dosyası kopyalamak gerekmez.
+
+```text
+styles/    Ortak tema paketi
+demo/      Next.js + gerçek shadcn bileşenleriyle önizleme
+tests/     Paket kontrolleri
+```
+
+Demo sayfası `demo/app/page.tsx`, demo bileşenleri `demo/components/ui/` içindedir. Demo bileşenini değiştirmek, diğer uygulamaların bileşen kodunu değiştirmez; paylaşılan kısım `styles/` altındaki temadır. Yeni shadcn bileşenlerini `demo/` klasöründe ekle; oradaki `components.json` ayarlarını ve tema importunu koru.
+
+`npm test` paket kontrollerini, `npm run build` demo derlemesini, `npm run typecheck` TypeScript kontrolünü çalıştırır. `npm pack` yalnızca tema dosyalarını ve paket dokümanını dağıtır; `demo/`, Next.js ve React bağımlılıkları tema paketine girmez. Npm workspaces sayesinde tek kurulum ve tek kilit dosyası kullanılır. Windows çalışma alanında Turbopack alt süreç hatası görüldüğü için demo, Next.js’in desteklediği Webpack derleyicisini kullanır. Eski uygulama dizinine ihtiyaç yoktur.
+
 ## Kullanım
 
 Kaynak repo: https://github.com/xkintaro/aether (özel). npm yayını henüz yapılmadı; şu an doğrudan GitHub sürümünden kurulabilir:

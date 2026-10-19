@@ -20,7 +20,11 @@
   ],
   "scripts": {
     "test": "node --test tests/package.test.mjs",
-    "prepack": "npm test"
+    "prepack": "npm test",
+    "dev": "npm run dev --workspace=aether-demo",
+    "build": "npm run build --workspace=aether-demo",
+    "start": "npm run start --workspace=aether-demo",
+    "typecheck": "npm run typecheck --workspace=aether-demo"
   },
   "dependencies": {
     "@fontsource-variable/geist": "5.3.0",
@@ -36,5 +40,8 @@
     "type": "git",
     "url": "git+https://github.com/xkintaro/aether.git"
   },
-  "homepage": "https://github.com/xkintaro/aether#readme"
+  "homepage": "https://github.com/xkintaro/aether#readme",
+  "workspaces": [
+    "demo"
+  ]
 }
