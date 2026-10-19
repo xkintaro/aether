@@ -1,0 +1,35 @@
+{
+  "name": "@xkintaro/aether-theme",
+  "version": "0.1.0",
+  "description": "Shared warm light/dark theme and typography for Tailwind CSS v4 and shadcn/ui.",
+  "type": "module",
+  "license": "UNLICENSED",
+  "style": "./styles/index.css",
+  "exports": {
+    ".": "./styles/index.css",
+    "./tokens.css": "./styles/tokens.css",
+    "./fonts.css": "./styles/fonts.css",
+    "./tailwind.css": "./styles/tailwind.css"
+  },
+  "files": [
+    "styles",
+    "README.md"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "test": "node --test tests/package.test.mjs",
+    "prepack": "npm test"
+  },
+  "dependencies": {
+    "@fontsource-variable/geist": "5.3.0",
+    "@fontsource-variable/jetbrains-mono": "5.3.0"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^4.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

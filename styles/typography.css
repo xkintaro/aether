@@ -1,0 +1,35 @@
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    @apply font-sans;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    line-height: 1.6;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
+    letter-spacing: -0.03em;
+  }
+
+  button,
+  [role="button"],
+  [role="tab"],
+  [data-slot="badge"],
+  [data-slot="sidebar-menu-button"],
+  [data-slot="sidebar-group-label"],
+  [data-slot="label"],
+  [data-slot="table-head"] {
+    @apply font-mono;
+  }
+}
