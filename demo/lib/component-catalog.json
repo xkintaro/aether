@@ -1,0 +1,336 @@
+{
+  "source": "https://ui.shadcn.com/docs/components",
+  "checkedAt": "2026-10-19",
+  "components": [
+    {
+      "name": "Accordion",
+      "slug": "accordion",
+      "docs": "https://ui.shadcn.com/docs/components/base/accordion"
+    },
+    {
+      "name": "Alert",
+      "slug": "alert",
+      "docs": "https://ui.shadcn.com/docs/components/base/alert"
+    },
+    {
+      "name": "Alert Dialog",
+      "slug": "alert-dialog",
+      "docs": "https://ui.shadcn.com/docs/components/base/alert-dialog"
+    },
+    {
+      "name": "Aspect Ratio",
+      "slug": "aspect-ratio",
+      "docs": "https://ui.shadcn.com/docs/components/base/aspect-ratio"
+    },
+    {
+      "name": "Attachment",
+      "slug": "attachment",
+      "docs": "https://ui.shadcn.com/docs/components/base/attachment"
+    },
+    {
+      "name": "Avatar",
+      "slug": "avatar",
+      "docs": "https://ui.shadcn.com/docs/components/base/avatar"
+    },
+    {
+      "name": "Badge",
+      "slug": "badge",
+      "docs": "https://ui.shadcn.com/docs/components/base/badge"
+    },
+    {
+      "name": "Breadcrumb",
+      "slug": "breadcrumb",
+      "docs": "https://ui.shadcn.com/docs/components/base/breadcrumb"
+    },
+    {
+      "name": "Bubble",
+      "slug": "bubble",
+      "docs": "https://ui.shadcn.com/docs/components/base/bubble"
+    },
+    {
+      "name": "Button",
+      "slug": "button",
+      "docs": "https://ui.shadcn.com/docs/components/base/button"
+    },
+    {
+      "name": "Button Group",
+      "slug": "button-group",
+      "docs": "https://ui.shadcn.com/docs/components/base/button-group"
+    },
+    {
+      "name": "Calendar",
+      "slug": "calendar",
+      "docs": "https://ui.shadcn.com/docs/components/base/calendar"
+    },
+    {
+      "name": "Card",
+      "slug": "card",
+      "docs": "https://ui.shadcn.com/docs/components/base/card"
+    },
+    {
+      "name": "Carousel",
+      "slug": "carousel",
+      "docs": "https://ui.shadcn.com/docs/components/base/carousel"
+    },
+    {
+      "name": "Chart",
+      "slug": "chart",
+      "docs": "https://ui.shadcn.com/docs/components/base/chart"
+    },
+    {
+      "name": "Checkbox",
+      "slug": "checkbox",
+      "docs": "https://ui.shadcn.com/docs/components/base/checkbox"
+    },
+    {
+      "name": "Code Block",
+      "slug": "code-block",
+      "docs": "https://ui.shadcn.com/docs/components/base/code-block"
+    },
+    {
+      "name": "Collapsible",
+      "slug": "collapsible",
+      "docs": "https://ui.shadcn.com/docs/components/base/collapsible"
+    },
+    {
+      "name": "Combobox",
+      "slug": "combobox",
+      "docs": "https://ui.shadcn.com/docs/components/base/combobox"
+    },
+    {
+      "name": "Command",
+      "slug": "command",
+      "docs": "https://ui.shadcn.com/docs/components/base/command"
+    },
+    {
+      "name": "Context Menu",
+      "slug": "context-menu",
+      "docs": "https://ui.shadcn.com/docs/components/base/context-menu"
+    },
+    {
+      "name": "Data Table",
+      "slug": "data-table",
+      "docs": "https://ui.shadcn.com/docs/components/base/data-table"
+    },
+    {
+      "name": "Date Picker",
+      "slug": "date-picker",
+      "docs": "https://ui.shadcn.com/docs/components/base/date-picker"
+    },
+    {
+      "name": "Dialog",
+      "slug": "dialog",
+      "docs": "https://ui.shadcn.com/docs/components/base/dialog"
+    },
+    {
+      "name": "Direction",
+      "slug": "direction",
+      "docs": "https://ui.shadcn.com/docs/components/base/direction"
+    },
+    {
+      "name": "Drawer",
+      "slug": "drawer",
+      "docs": "https://ui.shadcn.com/docs/components/base/drawer"
+    },
+    {
+      "name": "Dropdown Menu",
+      "slug": "dropdown-menu",
+      "docs": "https://ui.shadcn.com/docs/components/base/dropdown-menu"
+    },
+    {
+      "name": "Empty",
+      "slug": "empty",
+      "docs": "https://ui.shadcn.com/docs/components/base/empty"
+    },
+    {
+      "name": "Field",
+      "slug": "field",
+      "docs": "https://ui.shadcn.com/docs/components/base/field"
+    },
+    {
+      "name": "Hover Card",
+      "slug": "hover-card",
+      "docs": "https://ui.shadcn.com/docs/components/base/hover-card"
+    },
+    {
+      "name": "Input",
+      "slug": "input",
+      "docs": "https://ui.shadcn.com/docs/components/base/input"
+    },
+    {
+      "name": "Input Group",
+      "slug": "input-group",
+      "docs": "https://ui.shadcn.com/docs/components/base/input-group"
+    },
+    {
+      "name": "Input OTP",
+      "slug": "input-otp",
+      "docs": "https://ui.shadcn.com/docs/components/base/input-otp"
+    },
+    {
+      "name": "Item",
+      "slug": "item",
+      "docs": "https://ui.shadcn.com/docs/components/base/item"
+    },
+    {
+      "name": "Kbd",
+      "slug": "kbd",
+      "docs": "https://ui.shadcn.com/docs/components/base/kbd"
+    },
+    {
+      "name": "Label",
+      "slug": "label",
+      "docs": "https://ui.shadcn.com/docs/components/base/label"
+    },
+    {
+      "name": "Marker",
+      "slug": "marker",
+      "docs": "https://ui.shadcn.com/docs/components/base/marker"
+    },
+    {
+      "name": "Menubar",
+      "slug": "menubar",
+      "docs": "https://ui.shadcn.com/docs/components/base/menubar"
+    },
+    {
+      "name": "Message",
+      "slug": "message",
+      "docs": "https://ui.shadcn.com/docs/components/base/message"
+    },
+    {
+      "name": "Message Scroller",
+      "slug": "message-scroller",
+      "docs": "https://ui.shadcn.com/docs/components/base/message-scroller"
+    },
+    {
+      "name": "Native Select",
+      "slug": "native-select",
+      "docs": "https://ui.shadcn.com/docs/components/base/native-select"
+    },
+    {
+      "name": "Navigation Menu",
+      "slug": "navigation-menu",
+      "docs": "https://ui.shadcn.com/docs/components/base/navigation-menu"
+    },
+    {
+      "name": "Pagination",
+      "slug": "pagination",
+      "docs": "https://ui.shadcn.com/docs/components/base/pagination"
+    },
+    {
+      "name": "Popover",
+      "slug": "popover",
+      "docs": "https://ui.shadcn.com/docs/components/base/popover"
+    },
+    {
+      "name": "Progress",
+      "slug": "progress",
+      "docs": "https://ui.shadcn.com/docs/components/base/progress"
+    },
+    {
+      "name": "Questionnaire",
+      "slug": "questionnaire",
+      "docs": "https://ui.shadcn.com/docs/components/base/questionnaire"
+    },
+    {
+      "name": "Radio Group",
+      "slug": "radio-group",
+      "docs": "https://ui.shadcn.com/docs/components/base/radio-group"
+    },
+    {
+      "name": "Resizable",
+      "slug": "resizable",
+      "docs": "https://ui.shadcn.com/docs/components/base/resizable"
+    },
+    {
+      "name": "Scroll Area",
+      "slug": "scroll-area",
+      "docs": "https://ui.shadcn.com/docs/components/base/scroll-area"
+    },
+    {
+      "name": "Select",
+      "slug": "select",
+      "docs": "https://ui.shadcn.com/docs/components/base/select"
+    },
+    {
+      "name": "Separator",
+      "slug": "separator",
+      "docs": "https://ui.shadcn.com/docs/components/base/separator"
+    },
+    {
+      "name": "Sheet",
+      "slug": "sheet",
+      "docs": "https://ui.shadcn.com/docs/components/base/sheet"
+    },
+    {
+      "name": "Sidebar",
+      "slug": "sidebar",
+      "docs": "https://ui.shadcn.com/docs/components/base/sidebar"
+    },
+    {
+      "name": "Skeleton",
+      "slug": "skeleton",
+      "docs": "https://ui.shadcn.com/docs/components/base/skeleton"
+    },
+    {
+      "name": "Slider",
+      "slug": "slider",
+      "docs": "https://ui.shadcn.com/docs/components/base/slider"
+    },
+    {
+      "name": "Spinner",
+      "slug": "spinner",
+      "docs": "https://ui.shadcn.com/docs/components/base/spinner"
+    },
+    {
+      "name": "Switch",
+      "slug": "switch",
+      "docs": "https://ui.shadcn.com/docs/components/base/switch"
+    },
+    {
+      "name": "Table",
+      "slug": "table",
+      "docs": "https://ui.shadcn.com/docs/components/base/table"
+    },
+    {
+      "name": "Tabs",
+      "slug": "tabs",
+      "docs": "https://ui.shadcn.com/docs/components/base/tabs"
+    },
+    {
+      "name": "Textarea",
+      "slug": "textarea",
+      "docs": "https://ui.shadcn.com/docs/components/base/textarea"
+    },
+    {
+      "name": "Toast",
+      "slug": "toast",
+      "docs": "https://ui.shadcn.com/docs/components/base/toast"
+    },
+    {
+      "name": "Toggle",
+      "slug": "toggle",
+      "docs": "https://ui.shadcn.com/docs/components/base/toggle"
+    },
+    {
+      "name": "Toggle Group",
+      "slug": "toggle-group",
+      "docs": "https://ui.shadcn.com/docs/components/base/toggle-group"
+    },
+    {
+      "name": "Tooltip",
+      "slug": "tooltip",
+      "docs": "https://ui.shadcn.com/docs/components/base/tooltip"
+    },
+    {
+      "name": "Trace",
+      "slug": "trace",
+      "docs": "https://ui.shadcn.com/docs/components/base/trace"
+    },
+    {
+      "name": "Typography",
+      "slug": "typography",
+      "docs": "https://ui.shadcn.com/docs/components/base/typography"
+    }
+  ]
+}

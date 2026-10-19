@@ -1,0 +1,3 @@
+import Link from "next/link";
+import { ThemeToggle } from "@/components/theme-toggle";
+export function GalleryHeader() { return <><a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 focus:bg-primary focus:p-3 focus:text-primary-foreground">İçeriğe geç</a><header className="sticky top-0 z-40 border-b bg-background/95 backdrop-blur-md"><div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-5 py-4 sm:px-8"><Link href="/" className="font-heading text-lg font-bold tracking-tight">aether <span className="text-xs font-normal text-muted-foreground">/ demo</span></Link><ThemeToggle/></div></header></>; }

@@ -19,7 +19,11 @@ demo/      Next.js + gerçek shadcn bileşenleriyle önizleme
 tests/     Paket kontrolleri
 ```
 
-Demo sayfası `demo/app/page.tsx`, demo bileşenleri `demo/components/ui/` içindedir. Demo bileşenini değiştirmek, diğer uygulamaların bileşen kodunu değiştirmez; paylaşılan kısım `styles/` altındaki temadır. Yeni shadcn bileşenlerini `demo/` klasöründe ekle; oradaki `components.json` ayarlarını ve tema importunu koru.
+Demo ana sayfası `demo/app/page.tsx` içindeki aranabilir katalogdur. Dokümantasyonun **All Components** bölümündeki 66 bileşenin her biri `/components/<bilesen>` adresinde açılır. Kaynak listesi `demo/lib/component-catalog.json`, canlı dokümandan bağımsız çıkarılan karşılaştırma listesi `demo/lib/docs-component-snapshot.json` içindedir (19 Ekim 2026).
+
+59 sayfa resmî shadcn örneklerinden uyarlanmıştır; Data Table, Date Picker, Direction, Typography, Message, Message Scroller ve Trace için gerçek shadcn bileşenlerini kullanan yerel örnekler vardır. Data Table güncel TanStack Table v9 kullanır. Mesaj ve işlem akışı örnekleri API anahtarı gerektirmeyen yerel örnek verilerdir. `demo/THIRD_PARTY_NOTICES.md` kaynak ve lisans bilgisini içerir.
+
+Örnekler `demo/examples/`, gerçek UI bileşenleri `demo/components/ui/` içindedir. Demo bileşenini değiştirmek, diğer uygulamaların bileşen kodunu değiştirmez; paylaşılan kısım `styles/` altındaki temadır. Yeni shadcn bileşenlerini `demo/` klasöründe ekle; oradaki `components.json` ayarlarını ve tema importunu koru.
 
 `npm test` paket kontrollerini, `npm run build` demo derlemesini, `npm run typecheck` TypeScript kontrolünü çalıştırır. `npm pack` yalnızca tema dosyalarını ve paket dokümanını dağıtır; `demo/`, Next.js ve React bağımlılıkları tema paketine girmez. Npm workspaces sayesinde tek kurulum ve tek kilit dosyası kullanılır. Windows çalışma alanında Turbopack alt süreç hatası görüldüğü için demo, Next.js’in desteklediği Webpack derleyicisini kullanır. Eski uygulama dizinine ihtiyaç yoktur.
 

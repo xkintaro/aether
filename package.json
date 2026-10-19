@@ -19,7 +19,7 @@
     "**/*.css"
   ],
   "scripts": {
-    "test": "node --test tests/package.test.mjs",
+    "test": "node --test tests/package.test.mjs tests/catalog.test.mjs",
     "prepack": "npm test",
     "dev": "npm run dev --workspace=aether-demo",
     "build": "npm run build --workspace=aether-demo",

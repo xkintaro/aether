@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const nextConfig: NextConfig = {
+  images: { unoptimized: true },
   turbopack: { root },
   outputFileTracingRoot: root,
 };

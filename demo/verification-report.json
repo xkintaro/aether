@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-19",
+  "source": "https://ui.shadcn.com/docs/components",
+  "documentedComponents": 66,
+  "catalogMatchesLiveDocumentation": true,
+  "httpRenderedChecks": 66,
+  "desktopDarkClientRenderChecks": 66,
+  "mobileLightClientRenderChecks": 66,
+  "mobileOverflowFailuresAfterFixes": 0,
+  "interactionChecks": [
+    "catalog search",
+    "light/dark theme switch",
+    "Data Table pagination",
+    "Data Table filtering",
+    "Toast notification",
+    "Questionnaire step navigation",
+    "Date Picker selection",
+    "Direction RTL switch"
+  ],
+  "notes": [
+    "Desktop calendar/carousel and isolated sidebar layout were adjusted after the first sweep.",
+    "Wide official examples scroll inside their own cards instead of widening the mobile document.",
+    "The full production build and TypeScript check are required in addition to this manual-browser verification record."
+  ],
+  "productionBuild": {
+    "passed": true,
+    "generatedComponentPages": 66,
+    "typeScriptPassed": true
+  },
+  "packagePayloadExcludesDemo": true,
+  "desktopLayoutFixesVerified": [
+    "calendar",
+    "carousel"
+  ]
+}
