@@ -17,8 +17,6 @@
   --accent-foreground: #1a1712;
   --destructive: #dc2626;
   --destructive-foreground: #ffffff;
-  --success: #43613a;
-  --success-foreground: #ffffff;
   --border: rgba(26, 23, 18, 0.12);
   --input: rgba(26, 23, 18, 0.22);
   --ring: #8f4f1f;
@@ -55,8 +53,6 @@
   --accent-foreground: #f1e9d2;
   --destructive: #df3030;
   --destructive-foreground: #ffffff;
-  --success: #a8bc89;
-  --success-foreground: #1b2514;
   --border: rgba(241, 233, 210, 0.09);
   --input: rgba(241, 233, 210, 0.18);
   --ring: #e8a866;
